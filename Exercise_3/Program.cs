@@ -36,7 +36,16 @@ namespace Exercise_3
                     return (false);/* returns false if the node is mot found*/
             
         }
-        
+        public bool listEmpty()
+        {
+            if (LAST == null)
+                return true;
+            else
+                return false;
+        }
+
+
+
     }
     class program
     {
